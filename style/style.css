@@ -112,11 +112,11 @@ a{
 }
 
 .title-h1 {
-    font-size: 70px;
-    line-height: 70px;
-    font-weight: 900;
-    text-transform: uppercase;
     color: #3D3D3D;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    text-transform: uppercase;
 }
 
 .title-h1-space{
