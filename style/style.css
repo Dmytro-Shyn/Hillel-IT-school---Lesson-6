@@ -535,7 +535,7 @@ form{
     color: #46a359c5;
 }
 
-.filter-text-15px-active{
+.filter-text-15px__active{
     color: #46A358;
     font-weight: 600;
 }
@@ -647,4 +647,20 @@ form{
     font-weight: 700;
     border: none;
     background: #46A358;
+}
+
+.filter-text-categories-15px{
+    color: #3D3D3D;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px; /* 106.667% */
+}
+
+.filter-text-categories-15px:hover{
+    color: #46a359c5;
+}
+
+.filter-text-categories-15px__active{
+    color: #46A358;
+    font-weight: 600;
 }
