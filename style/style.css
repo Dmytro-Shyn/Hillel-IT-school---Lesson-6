@@ -10,7 +10,7 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-h1,h2,h3,p,a{
+h1,h2,h3,h4,p,a{
     margin: 0;
 	padding: 0;
 }
@@ -23,6 +23,15 @@ ol, ul {
 
 a{
     text-decoration: none;
+}
+
+.title-18px-900 {
+    color: #3D3D3D;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px; /* 133.333% */
+    text-transform: uppercase;
+    text-align: inherit;
 }
 
 .wrapper{
@@ -132,6 +141,7 @@ a{
     line-height: 24px;
     font-weight: 400;
     color: #727272;
+    text-align: inherit;
 }
 
 .hero-content-space{
@@ -663,4 +673,81 @@ form{
 .filter-text-categories-15px__active{
     color: #46A358;
     font-weight: 600;
+}
+
+/* SECTION-PLANT-SHOP-OFFERING */
+
+.section-plant-shop-offering {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 146px;
+}
+
+.styling-trends {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    padding: 37px 30px 0 0;
+    flex-grow: 1;
+    justify-content: end;
+    background-color: #FBFBFB;
+}
+
+.summer-cactus {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    padding: 37px 30px 0 0;
+    flex-grow: 1;
+    justify-content: end;
+    background-color: #FBFBFB;
+}
+.summer-cactus__content {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: end;
+}
+
+.styling-trends__content {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: end;
+}
+
+.img-section-plant{
+    content: "";
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.mar-bot-9{
+    margin-bottom: 9px;
+}
+
+.mar-bot-25{
+    margin-bottom: 25px;
+}
+
+.mar-bot-46{
+    margin-bottom: 46px;
+}
+
+.button-section-plant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #46A358;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    border-radius: 6px;
+    gap: 5px;
 }
