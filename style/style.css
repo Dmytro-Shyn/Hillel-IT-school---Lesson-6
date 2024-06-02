@@ -263,7 +263,6 @@ a{
     font-size: 13px;
     font-weight: 500;
     line-height: 16px;
-    text-align: left;
     color: #3D3D3D;
     text-align: start;
     margin: 0;
@@ -294,12 +293,21 @@ a{
     margin-right: 9px;
 }
 
+.form-description-under p{
+    color: #3D3D3D;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0;
+}
+
 .btn-social a p{
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
     color: #727272;
 }
+
 
 .btn-social a{
     display: flex;
@@ -383,13 +391,6 @@ form{
     margin: 0 7px;
 }
 
-.form-description-under p{
-    color: #3D3D3D;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 16px;
-    margin: 0;
-}
 
 .color-grey{
     background-color: #46a3596c;
@@ -445,10 +446,6 @@ form{
     right: -15px;
 }
 
-.section-catalog {
-    display: flex;
-    flex-direction: row;
-}
 
 .catalog {
     display: flex;
@@ -499,18 +496,13 @@ form{
     height: 300px;
     width: 258px;
     object-fit: contain;
-    mix-blend-mode: multiply;
 }
+
 .fon {
     height: 300px;
     width: 258px;
     background-color: #FBFBFB;
     margin-bottom: 12px;
-}
-
-.product-card{
-    display: flex;
-    flex-direction: column;
 }
 
 .name-plant {
@@ -533,7 +525,6 @@ form{
     position: relative;
 }
     
-
 .filter-text-15px{
     color: #3D3D3D;
     font-size: 15px;
@@ -588,6 +579,19 @@ form{
     visibility: hidden;
 }
 
+.icon {
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-right: 10px;
+    transition: fill 0.3s ease;
+    visibility: hidden;
+}
+
+.icon:last-child {
+    margin: 0;
+}
+
 .product-card::before:hover {
     visibility: visible;
 }
@@ -605,21 +609,8 @@ form{
     visibility: visible;
 }
 
-.icon {
-    padding: 8px;
-    background-color: #fff;
-    border-radius: 4px;
-    margin-right: 10px;
-    transition: fill 0.3s ease;
-    visibility: hidden;
-}
-
 .product-card:hover .icon{
     visibility: visible;
-}
-
-.icon:last-child {
-    margin: 0;
 }
 
 .number-list {
@@ -704,6 +695,7 @@ form{
     justify-content: end;
     background-color: #FBFBFB;
 }
+
 .summer-cactus__content {
     display: flex;
     flex-direction: column;
@@ -750,4 +742,8 @@ form{
     padding: 8px 16px;
     border-radius: 6px;
     gap: 5px;
+}
+
+.fix-transparency {
+    mix-blend-mode: multiply;
 }
