@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import url(../font/stylesheet.css);
 
 *{
     box-sizing: border-box;
@@ -7,7 +8,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Cera Pro", Roboto, sans-serif;
 }
 
 h1,h2,h3,h4,p,a{
@@ -421,7 +422,8 @@ form{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 22px 24px 0 30px;
+    padding: 0 24px 0 30px;
+    margin-bottom: 30px;
 }
 
 .title-h3 {
@@ -429,7 +431,7 @@ form{
     font-size: 18px;
     font-weight: 700;
     line-height: 16px; /* 88.889% */
-    padding: 14px 0 7px 18px;
+    margin-bottom: 21px;
 }
 
 .super_sale_text {
@@ -476,7 +478,7 @@ form{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 33px;
+    gap: 70px 33px;
     margin-bottom: 90px;
 }
 
@@ -485,7 +487,6 @@ form{
     flex-direction: column;
     /* background: #FBFBFB; */
     /* outline: 2px solid lightsteelblue; */
-    margin-bottom: 70px;
     transition: 2s ease;
 }
 
@@ -669,6 +670,15 @@ form{
     font-weight: 600;
 }
 
+.sale-13 {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 14px;
+    background-color: #46A358;
+    color: #fff;
+    padding: 7px 8px;
+}
 /* SECTION-PLANT-SHOP-OFFERING */
 
 .section-plant-shop-offering {
@@ -719,6 +729,10 @@ form{
     position: absolute;
     left: 0;
     bottom: 0;
+}
+
+.mar-bot-0 {
+    margin-bottom: 0;
 }
 
 .mar-bot-4{
@@ -809,6 +823,7 @@ form{
     font-weight: 700;
     line-height: 26px; /* 130% */
 }
+
 .link-14px {
     color: #3D3D3D;
     font-size: 14px;
@@ -816,6 +831,17 @@ form{
     line-height: 16px; /* 114.286% */
 }
 
+.link-14px--active {
+    color: #46A358;
+}
+
 .news-img {
     width: 257px;
+}
+
+.link-more-read{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
 }
