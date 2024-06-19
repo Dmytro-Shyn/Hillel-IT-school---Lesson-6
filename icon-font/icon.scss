@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('fonts/icomoon-190624.eot?kmlu0e');
-  src:  url('fonts/icomoon-190624.eot?kmlu0e#iefix') format('embedded-opentype'),
-    url('fonts/icomoon-190624.ttf?kmlu0e') format('truetype'),
-    url('fonts/icomoon-190624.woff?kmlu0e') format('woff'),
-    url('fonts/icomoon-190624.svg?kmlu0e#icomoon-190624') format('svg');
+  font-family: 'icomoon-190624';
+  src:  url('fonts/icomoon-190624.eot?mvw5hv');
+  src:  url('fonts/icomoon-190624.eot?mvw5hv#iefix') format('embedded-opentype'),
+    url('fonts/icomoon-190624.ttf?mvw5hv') format('truetype'),
+    url('./fonts/icomoon-190624.woff') format('woff'),
+    url('fonts/icomoon-190624.svg?mvw5hv#icomoon-190624') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -12,7 +12,8 @@
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: 'icomoon-190624' !important;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -39,6 +40,8 @@
 }
 .icon-basket:before {
   content: "\e903";
+  color: #46a358;
+  z-index: 30;
 }
 .icon-facebook:before {
   content: "\e905";
@@ -55,14 +58,14 @@
   content: "\e908";
   color: #46a358;
 }
-.icon-location:before {
+.icon-Location:before {
   content: "\e909";
   color: #46a358;
 }
 .icon-login:before {
   content: "\e90a";
 }
-.icon-Message:before {
+.icon-message:before {
   content: "\e90b";
   color: #46a358;
 }
