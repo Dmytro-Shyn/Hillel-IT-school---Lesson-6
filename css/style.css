@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
 @import url(../font/stylesheet.css);
-@import url("../icon-font/icon.scss");
+@import url(../icon-font/icon.css);
 * {
   box-sizing: border-box;
 }
@@ -24,6 +24,10 @@ ol, ul {
 
 a {
   text-decoration: none;
+}
+
+.fs-14px {
+  font-size: 12px;
 }
 
 .description-14-400 {
@@ -622,6 +626,9 @@ form {
   flex-direction: column;
   transition: 2s ease;
 }
+.product-card:hover .ico-wrapper {
+  display: flex;
+}
 
 .product-card:nth-last-child(-n+3) {
   margin: 0;
@@ -709,19 +716,23 @@ form {
   display: flex;
 }
 
-.icon {
+.ico-for-card {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
   padding: 8px;
   background-color: #fff;
-  border-radius: 4px;
-  margin-right: 10px;
-  transition: fill 0.3s ease;
+  border-radius: 5px;
+}
+.ico-for-card:hover {
+  color: #1A712A;
 }
 
-.icon:last-child {
-  margin: 0;
+.cl-bl {
+  color: #2a302b;
 }
 
-.icon-wrapper {
+.ico-wrapper {
   content: "";
   display: none;
   position: absolute;
@@ -730,10 +741,6 @@ form {
   top: 75%;
   transition: 0.3s;
   gap: 10px;
-}
-
-.product-card:hover .icon-wrapper {
-  display: flex;
 }
 
 .number-list {
@@ -808,16 +815,6 @@ form {
   margin-top: 146px;
 }
 
-.styling-trends {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  padding: 37px 30px 0 0;
-  flex-grow: 1;
-  justify-content: end;
-  background-color: #FBFBFB;
-}
-
 .summer-cactus {
   display: flex;
   position: relative;
@@ -829,13 +826,6 @@ form {
 }
 
 .summer-cactus__content {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  text-align: end;
-}
-
-.styling-trends__content {
   display: flex;
   flex-direction: column;
   align-items: end;
