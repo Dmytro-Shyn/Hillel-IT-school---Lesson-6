@@ -31,6 +31,10 @@ a{
     font-size: 12px;
 }
 
+.fs-18px {
+    font-size: 19px;
+}
+
 .description-14-400 {
     color: #727272;
     font-size: 14px;
@@ -949,13 +953,13 @@ form{
 }
 
 .link-14px {
-    color: #3D3D3D;
+    color: inherit;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px; /* 114.286% */
 }
 
-.link-14px--active {
+.news:hover .link-more-read {
     color: #46A358;
 }
 
