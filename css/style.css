@@ -823,7 +823,7 @@ form {
   display: flex;
   position: relative;
   flex-direction: row;
-  padding: 37px 30px 0 0;
+  padding: 37px 30px 46px 0;
   flex-grow: 1;
   justify-content: end;
   background-color: #FBFBFB;
@@ -837,8 +837,6 @@ form {
 }
 
 .img-section-plant {
-  content: "";
-  display: flex;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -929,7 +927,7 @@ form {
 }
 
 .wrapper-content {
-  padding: 0 15px 13px 15px;
+  padding: 9px 15px 13px 15px;
 }
 
 .text-data-green {
