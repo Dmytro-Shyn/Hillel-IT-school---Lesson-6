@@ -1196,4 +1196,28 @@ form {
   margin-top: 10px;
 }
 
+.spiner {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  animation-name: spiner;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes spiner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
