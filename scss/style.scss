@@ -1208,14 +1208,13 @@ form{
 
 // PRELOUDER
 
-.spiner {
+.spinner {
     position: relative;
     width: 20px;
     height: 20px;
-    background-color: transparent;
     border-radius: 50%;
     background-image: conic-gradient(#fff, transparent);
-    animation-name: spiner;
+    animation-name: spinner;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -1234,7 +1233,7 @@ form{
     }
 }
 
-@keyframes spiner{
+@keyframes spinner{
     from {
         transform: rotate(0deg);
     }
