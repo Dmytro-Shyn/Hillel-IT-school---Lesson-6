@@ -1196,20 +1196,19 @@ form {
   margin-top: 10px;
 }
 
-.spiner {
+.spinner {
   position: relative;
   width: 20px;
   height: 20px;
-  background-color: transparent;
   border-radius: 50%;
   background-image: conic-gradient(#fff, transparent);
-  animation-name: spiner;
+  animation-name: spinner;
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-fill-mode: both;
 }
-.spiner::after {
+.spinner::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -1222,7 +1221,7 @@ form {
   z-index: 3;
 }
 
-@keyframes spiner {
+@keyframes spinner {
   from {
     transform: rotate(0deg);
   }
